@@ -19,11 +19,26 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 1.5rem;
   line-height: 1.5;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+img {
+  display: inline-flex;
+  width: 5rem;
+}
+
+hgroup {
+  display: inline-flex;
+  width: 16rem;
+}
+
+p {
+  display: inline-flex;
+  width: 24rem;
+}
+
+a {
+  display: inline-flex;
+  width: 5rem;
 }
