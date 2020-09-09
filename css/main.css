@@ -20,7 +20,19 @@ html {
 
 body {
   margin: 1.5rem;
+  display: inline;
+  position: relative;
   line-height: 1.5;
+}
+
+ul {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  width: 100%;
 }
 
 img {
@@ -29,16 +41,31 @@ img {
 }
 
 hgroup {
+  padding: 2rem;
   display: inline-flex;
   width: 16rem;
 }
 
+h3 {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+h4 {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
 p {
+  padding: 2rem;
   display: inline-flex;
   width: 24rem;
 }
 
 a {
+  padding: .5rem 1rem .6rem;
   display: inline-flex;
   width: 5rem;
+  color: #fff;
+  background-color: #444;
 }
