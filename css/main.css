@@ -12,18 +12,21 @@ html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+main {
+  margin: 1.5rem;
+}
+
 body {
   background-color: #ccc;
-  margin: 1.5rem;
   display: inline;
   position: relative;
-  line-height: 1.5;
 }
 
 h2 {
