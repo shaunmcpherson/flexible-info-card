@@ -22,7 +22,7 @@ html {
 body {
   background-color: #ccc;
   margin: 0;
-  display: inline;
+  display: flex;
   position: relative;
 }
 
